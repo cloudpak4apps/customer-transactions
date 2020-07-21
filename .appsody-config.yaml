@@ -1,0 +1,3 @@
+id: "20200720131233.94297500"
+project-name: customer-transactions
+stack: docker.io/kabanero/java-spring-boot2:0.3

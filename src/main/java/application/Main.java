@@ -30,7 +30,7 @@ public class Main {
 		try {
 			if (log.isDebugEnabled())
         		log.debug("send hello world");
-			jmsTemplate.convertAndSend("DEV.QUEUE.1", "Hello World!");
+			jmsTemplate.convertAndSend("DEV.QUEUE.1", "Hello Cloud Pak!");
 			return "OK";
 		} catch(JmsException ex) {
 			ex.printStackTrace();
