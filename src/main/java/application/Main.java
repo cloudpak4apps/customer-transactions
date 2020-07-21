@@ -30,7 +30,7 @@ public class Main {
 		try {
 			if (log.isDebugEnabled())
         		log.debug("send hello world");
-			jmsTemplate.convertAndSend("DEV.QUEUE.1", "Message from Cloud Pak 4 Applications to IBM MQ");
+			jmsTemplate.convertAndSend("DEV.QUEUE.1", "Message from Cloud Pak 4 Applications to demo AMX");
 			return "OK";
 		} catch(JmsException ex) {
 			ex.printStackTrace();
