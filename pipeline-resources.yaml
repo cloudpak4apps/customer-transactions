@@ -7,7 +7,7 @@ spec:
   type: git
   params:
     - name: url
-      value: https://github.ibm.com/clouspak4apps/customer-transactions
+      value: https://github.com/cloudpak4apps/customer-transactions
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: PipelineResource
