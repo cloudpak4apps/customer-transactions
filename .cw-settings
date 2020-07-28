@@ -1,7 +1,7 @@
 {
   "contextRoot": "",
   "internalPort": "",
-  "healthCheck": "",
+  "healthCheck": "true",
   "internalDebugPort": "",
   "isHttps": false,
   "ignoredPaths": [
