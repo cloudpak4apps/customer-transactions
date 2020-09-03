@@ -23,7 +23,7 @@ public class TransactionServiceImpl implements TransactionService {
 	public void sendTransaction(Transaction transaction) {
 		try {
 			if (log.isDebugEnabled())
-        		log.debug("sendTransaction : " + transaction);
+        		log.debug("sendTransaction demo : " + transaction);
 			jmsTemplate.convertAndSend("DEV.QUEUE.1", transaction);
 			
 		} catch(JmsException ex) {
