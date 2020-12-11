@@ -21,7 +21,7 @@ public class TransactionRestController {
 	@PostMapping("transaction")
 	String sendTransaction(@RequestBody Transaction transaction) {
 		if (log.isDebugEnabled())
-    		log.debug("send transaction controller: " + transaction);
+    		log.debug("send transaction controller --> " + transaction);
 		
 		service.sendTransaction(transaction);
 		

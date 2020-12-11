@@ -1,0 +1,1 @@
+appsody deploy --tag kabanero/mq-hola-mundo:v1 --push-url $IMAGE_REGISTRY_PUSH --push --pull-url $IMAGE_REGISTRY_PULL --namespace kabanero

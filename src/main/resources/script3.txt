@@ -1,0 +1,2 @@
+export IMAGE_REGISTRY_PULL=image-registry.openshift-image-registry.svc:5000
+export IMAGE_REGISTRY_PUSH=default-route-openshift-image-registry.rhocpmx00-0d255d996fcd6abc1b41c2a2192a564d-0000.mex01.containers.appdomain.cloud

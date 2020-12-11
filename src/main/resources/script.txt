@@ -1,0 +1,2 @@
+curl --request GET --url 'https://gw.tech-sales-dallas.us-south.apiconnect.appdomain.cloud/flunab/sandbox/api/Items' --header 'accept: application/json' --header 'x-ibm-client-id: f29dc6fae161fd4919a626b85f046726' --header 'x-ibm-client-secret: fc396755f18d01ae0924fa61d8412957'
+
